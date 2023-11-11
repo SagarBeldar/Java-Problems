@@ -40,5 +40,6 @@ public class tcs {
         }
 
         System.out.println("The smallest prime number (p) is: " + p);
+        scanner.close();
     }
 }

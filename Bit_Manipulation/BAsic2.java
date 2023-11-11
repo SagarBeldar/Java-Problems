@@ -18,6 +18,6 @@ public class BAsic2 {
 
         evenoddbit(n);
 
-
+       sc.close();
     }
 }
