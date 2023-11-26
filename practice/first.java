@@ -8,10 +8,10 @@ class first {
         int a;
         System.out.println("Enter Number");
      
-        Scanner s=new Scanner(System.in);
-        a=s.nextInt();
+        Scanner p=new Scanner(System.in);
+        a=p.nextInt();
         System.out.print(a);
-        s.close();
+        p.close();
        
     }
     
