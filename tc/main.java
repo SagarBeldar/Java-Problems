@@ -22,7 +22,7 @@ public class main {
     }
     
     static int count_desc = 0;
-    static int count_asc = 0;
+    static int count_asc = 0;    
 
     public static void bubbleSort_descend(int[] array, int size) {
         for (int step = 0; step < size - 1; ++step) {
