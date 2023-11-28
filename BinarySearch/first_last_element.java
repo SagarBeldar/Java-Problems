@@ -8,11 +8,12 @@ public class first_last_element{
         System.out.println(searchRange(nums, target));
     }
 
-     static  int[] searchRange(int nums[],int target){
+     public static int[] searchRange(int nums[],int target){
         int ans[]={-1,-1};
 
         //check for first occurance
         int start=search(nums, target, true);
+        boolean findstartIndex;
         int end=search(nums, target, findstartIndex:false);
 
         ans[0]=start;
@@ -23,7 +24,7 @@ public class first_last_element{
 
     //this fuction just return the index value of target
 
-     int search(int nums[],int target,boolean findstartIndex){
+     public static int search(int nums[],int target,boolean findstartIndex){
         int ans =-1;
         int start=0;
         int end=nums.length;
