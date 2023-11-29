@@ -1,11 +1,15 @@
 package BinarySearch;
 
+//Called it bitonic array
+
+//Leetcode 1095 15-2.29hr
+
 //In this que array are given in ascending and then descending =>then cheak the biggest element
 //
 
 public class MountainArray {
     public static void main(String[] args) {
-        int arr[]={0,1,0};
+        int arr[]={0,1,0};   
         System.out.println(mountainArray(arr));
     }
 
