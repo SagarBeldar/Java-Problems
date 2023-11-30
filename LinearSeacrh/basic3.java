@@ -12,7 +12,6 @@ public class basic3 {
           else if(key<number[row][col]){
             col--;
           }
-
           else{
             row++;
           }
