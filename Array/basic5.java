@@ -7,7 +7,7 @@ public class basic5 {
      public static void main(String[] args) {
         int array[]={2,4,6,8,10};
         swap(array,1,2);
-        System.out.println(Arrays.toString(array));
+        System.out.println();
 
     }
 

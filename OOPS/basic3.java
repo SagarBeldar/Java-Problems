@@ -2,8 +2,8 @@ package OOPS;
 
 public class basic3 {
     public static void main(String[] args) {
-        Fish shark=new Fish();
-        shark.eat();
+        Fish obj=new Fish();
+        obj.eat();
         Tuna fish=new Tuna();
         fish.name="A giant watre fish";
 

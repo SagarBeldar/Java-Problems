@@ -13,7 +13,7 @@ public class basic2 {
     }
 
     public static int getsmallest(int num[]){
-        int smallest=Integer.MIN_VALUE;
+        int smallest=Integer.MAX_VALUE;
         for(int i=0;i<num.length;i++){
             if(smallest>num[i]){
              smallest=num[i];
