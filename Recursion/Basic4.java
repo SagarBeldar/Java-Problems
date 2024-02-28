@@ -1,17 +1,20 @@
 package Recursion;
 
 public class Basic4 {
-    static int sortarr(int n){
-        int n1=sortarr(n-1);
-        int n2=sortarr(n);
-        if(n1<n2){
-            n2=n1;
+    
+    static boolean sortarr(int arr[],int idx){
+        if(idx ==arr.length-1){
+            return true;
+
         }
-        return n2;
+        if(arr[idx]>arr[idx+1]){
+            return false;
+        }
+       return sortarr(arr, idx+1);
     }
 
     public static void main(String[] args) {
-        int arr[]={4,6,1,2,5,3};
-        System.out.println(arr);
+        int arr[]={1,2,3,4};
+        System.out.println(sortarr(arr,0));
     }
 }
