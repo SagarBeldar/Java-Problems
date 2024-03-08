@@ -1,7 +1,4 @@
 package practice;
-
-import tc.main;
-
 /**
  * fibonacci
  */

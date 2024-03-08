@@ -1,7 +1,4 @@
 package BinarySearch;
-
-import tc.main;
-
 public class rotatedsortedarr {
 
    public static int rotatedsort(int[] arr, int key){
@@ -14,15 +11,15 @@ public class rotatedsortedarr {
         if(arr[mid]==key){
             return mid;
         }
-
-        if(arr[low]<arr[mid]){
+         // If the left half is sorted
+        if(arr[low]<=arr[mid]){
             if(key>=arr[low] && key<arr[mid]){
-                
-                low=mid+1;
-            }else{
                 high=mid-1;
+            }else{
+                low=mid+1;
             }
         }
+        // If the right half is sorted
         else{
             if(key>arr[mid] && key<=arr[high]){
                 low=mid+1;
