@@ -19,7 +19,7 @@ public class Basic1 {
         System.out.print(n+" ");
     }
 public static void main(String[] args) {
-    // printDec(10);
+    printDec(10);
     printInc(5);
 }
 }
