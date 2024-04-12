@@ -16,12 +16,13 @@ public class linearsearch {
         int key=10;
 
         int index=linearSearch(numbers, key);
-         if(index==-1){
-            System.out.println("Not Found");
-         }
-         else{
-                System.out.println("Key is at index" +index);
-         }
+        System.out.println(index);
+        //  if(index==-1){
+        //     System.out.println("Not Found");
+        //  }
+        //  else{
+        //         System.out.println("Key is at index" +index);
+        //  }
      
     }
  

@@ -2,7 +2,6 @@ package OOPS;
 
 public class basic5 {
    public static void main(String[] args) {
-    Horse h=new Horse();
    } 
 }
 
