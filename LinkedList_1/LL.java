@@ -21,7 +21,7 @@ public class LL {
             return;
         }
         newNode.next=head;
-        head=newNode;
+        head=newNode;      
     }
 
     public void addLast(int data){
@@ -30,11 +30,11 @@ public class LL {
             head=tail=newNode;
             return;
         }
-        tail.next=newNode;
+        tail.next=newNode;     
         tail=newNode;
     }
 
-    public void print(){
+    public void print(){     
         if (head == null) {
             System.out.println("LL is empty ");
             return;
