@@ -13,17 +13,17 @@ public class BAsic1 {
             else if(target>arr[mid]){
                 start=mid+1;
             }
-            else{
+            else{  
                 return mid;
             }
         }
         return-1;
-    }
+    }  
     public static void main(String[] args) {
         int arr[]={-1,-2,-3,-4,0,1,3,5,7,9,11,13,15};
         int target=9;
 
         int ans=binarySearch(arr, target);
-        System.out.println(ans);
+        System.out.println(ans);   
     }
 }
