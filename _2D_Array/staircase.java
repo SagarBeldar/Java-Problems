@@ -12,8 +12,8 @@ public class staircase {
         { 23, 33, 43, 56 }
     };
 
-    int key = 37;
-    // stairCase(number, key);
+    int key = 56;
+    stairCase(number, key);
     System.out.println(Arrays.toString(rowcolumn(number,key)));
   }
 
@@ -23,7 +23,7 @@ public class staircase {
     int col = number[0].length - 1;
     while (row < number.length && col >= 0) {
       if (number[row][col] == key) {
-        System.out.println(" found ket at (" + row + "," + col + ")");
+        System.out.println(" found key at (" + row + "," + col + ")");
         return true;
       } else if (key < number[row][col]) {
         col--;
