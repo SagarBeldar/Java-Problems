@@ -9,14 +9,14 @@ public class maxarraysum {
             for (int j = i; j < numbers.length; j++) {
                  currSum = 0;
                 for (int k = i; k <= j; k++) {
-                 currSum=currSum+numbers[k];
-                 
+                 currSum=currSum+numbers[k];              
                 }
-                System.out.println(currSum);
+                System.out.print(currSum+" ");
                 if(maxSum<currSum){
                     maxSum=currSum;
                 }
             }
+            System.out.println();
         }
         System.out.println("Total maxSum array is "+maxSum);
     }
